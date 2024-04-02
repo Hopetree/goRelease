@@ -1,5 +1,10 @@
 name: go-releaser
 
+permissions:
+  contents: write
+  id-token: write
+  packages: write
+
 on:
   push:
     tags: [ 'v*' ]
